@@ -12,14 +12,14 @@ class Bookshelf {
 	}
 
 	printFavoriteBooks() {
-		console.log(`Favorite Books: ${favoriteBooks.length}`);
-		for (let bookName of favoriteBooks) {
+		console.log(`Favorite Books: ${this.favoriteBooks.length}`);
+		for (let bookName of this.favoriteBooks) {
 			console.log(bookName);
 		}
 	}
 
-	// TODO: define methods `addFavoriteBook(..)`
-	// and `printFavoriteBooks()`
+	// TODO: define methods `addFavoriteBook(..)` //Done
+	// and `printFavoriteBooks()` //DONE
 }
 
 
