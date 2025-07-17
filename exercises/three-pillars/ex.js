@@ -5,7 +5,7 @@ class Bookshelf {
 
 	addFavoriteBook(bookName) {
 		if (!bookName.includes("Great")) {
-			favoriteBooks.push(bookName);
+			this.favoriteBooks.push(bookName);
 		}
 
 
@@ -28,6 +28,7 @@ class Bookshelf {
 
 function loadBooks( /* .. */ ) {
 	// TODO: call fakeAjax( .. );
+	return fakeAjax(BOOK_API)
 }
 
 var BOOK_API = "https://some.url/api";
